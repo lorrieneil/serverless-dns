@@ -24,7 +24,7 @@ jobs:
           deno-version: v2.x
 
       - name: Build step
-        run: "deno dask prepare"
+        run: "deno task prepare"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
